@@ -1,6 +1,6 @@
 fn main() {
     let valid_states: [bool; 2] = [true, false];
-
+//Belegung von X und Y mit allen möglichen Kombinationen an true und false
     for x in valid_states {
         for y in valid_states {
             println!("X:{}, Y:{}, 1a(XY):{}, 1b(XY):{}, 3a(XY):{}", x, y, aa(x,y), ab(x, y), ca(x,y))
